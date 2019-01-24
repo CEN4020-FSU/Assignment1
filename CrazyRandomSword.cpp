@@ -15,7 +15,7 @@
      double range = third - 2; //finds the range between the third of armor and 2
      double reducedArmor = rand() % range + 2; //finds a random number generator between 2 and the third of armor
      armor = armor - reducedArmor; //reduces the armor since it is being ignored
-     double damage = hitPoints - (armor * 0.8); //
+     double damage = hitPoints - armor; //
      if (damage < 0) {
          return 0;
      }
