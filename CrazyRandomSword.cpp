@@ -5,8 +5,8 @@
  * Created on January 24th, 2019
  */
 
- #include  "CrazyRandomSword.h"
- #include <math>
+ #include "CrazyRandomSword.h"
+ #include <cmath>
 
  double CrazyRandomSword::hit(double armor)
  {
