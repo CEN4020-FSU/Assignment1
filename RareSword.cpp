@@ -8,7 +8,7 @@
  #include "RareSword.h"
 
  double RareSword::hit(double armor) {
-     double damage = hitPoints - (armor * 0.5);
+     double damage = hitPoints - (armor * 0.5); //ignores 50% of armor
      if (damage < 0) {
          return 0;
      }
