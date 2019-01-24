@@ -7,6 +7,7 @@
  */
 
 #include <cstdlib>
+#include <ctime>
 #include <iostream>
 #include "Weapon.h"
 #include "WeaponFactory.h"
@@ -28,7 +29,7 @@ void simulateWeapon(Weapon * weapon, double armor) {
  *
  */
 int main(int argc, char** argv) {
-
+    srand(time(NULL));
     double armor = 29;
 
     Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
