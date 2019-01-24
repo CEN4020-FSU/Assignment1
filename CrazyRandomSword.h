@@ -7,7 +7,7 @@
 
  #include <string>
  #include <ctime>
- #include <stdlib>
+ #include <cstdlib>
  #include "Weapon.h"
 
  #ifndef CRAZYRANDOMSWORD_H
