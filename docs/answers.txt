@@ -1,0 +1,27 @@
+a) "Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 457 bytes | 457.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/SamOstlund/Assignment1.git
+   7ef2d75..41cca27  master -> master"
+
+b) 5 commits so far. I used "git rev-list --all --count" to find this information.
+
+c) .gitignore was last modified Thursday, January 10th at 16:45:38 2019. I used "git log .gitignore" to find this information.
+
+d) One reason for why branches are used in a Git repository is that it prevents unstable code from being added to the main code. This prevents the main system from crashing due to buggy code that is being worked on. Another reason for branching is that it allows for multiple programmers to work on one project at once. Since we can branch, we can have one person working on one part while another programmer works on another part and they will not affect each other. This prevents delays due to buggy code.
+
+e) Git status shows you information about the current repository that you are in but it does not show the history of commits, which git log does. Git status shows the state of the staging area of Git but Git log shows the history of commits.
+
+f) git log --follow -- Weapon.h
+
+g) git log --grep=file
+
+h) Inheritance is when a class is derived from another class. This copies all of the properties of the class that is being inherited from to the new class. Polymorphism is when one class is used to derive a bunch of classes from it. For example, if there was an abstract class named shape and the classes circle, square, and triangle are derived from it. This would allow them to all have the same functions and be compared but also have their own definitions of the functions (for example, a function that would return the area would have to be different for each shape). Encapsulation is when all of the data related to each other is placed in a single class so that the programmer has all control over the data. There are typically "getter" functions alongside encapsulation that allow for users of the class to retrieve the data from inside of it but they cannot directly manipulate it since it is private member data.
+
+i) The main difference between the two workflows is that only the dictator can push to the main repository but everyone can pull from it. In the integration workflow, everyone can push to the main repository and everyone can also pull from it. The dictator workflow has more control of what gets pushed to the main repository.
+
+j) A team of 100 developers would work better using the dictator workflow because if they let 100 people push to a single repository then it would become a cluster of a mess (i.e. centralized workflow). The dictator workflow would make sure that only "good" code will be pushed to the main repository which avoids bugs. The centralized workflow would have to have the programmers settle their arguments before pushing which could lead to huge issues since a lot of programmers tend to be stubborn. The dictator workflow would get rid of these arguments which allow for more work to be done.
