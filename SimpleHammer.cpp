@@ -1,3 +1,9 @@
+/* 
+ * File:   SimpleHammer.cpp
+ * Author: Cameron <cf15@my.fsu.edu>
+ *  
+ */
+
 #include "SimpleHammer.h"
 
 double SimpleHammer::hit(double armor) {

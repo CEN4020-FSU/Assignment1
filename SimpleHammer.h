@@ -1,8 +1,8 @@
 /* 
  * File:   SimpleHammer.h
- * Author: Javier <jrescobara@gmail.com>
+ * Author: Cameron <cf15@my.fsu.edu>
  *
- * Created on September 27, 2017, 4:15 PM
+ * Created on February 02, 2019, 2:00 PM
  */
 
 #include <string>
@@ -14,8 +14,7 @@
 class SimpleHammer : public Weapon {
 public:
 
-    SimpleHammer() : Weapon("Simple Hammer", 25.0) { //Calls Weapon(name, hitpoints) constructor with values Common Spear and 40.0
-    }
+    SimpleHammer() : Weapon("Simple Hammer", 25.0) {}
 
     virtual ~SimpleHammer() {};
 
