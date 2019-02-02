@@ -1,0 +1,38 @@
+3.E.a:
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 828 bytes | 828.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/CFarzaneh/Assignment1.git
+   3d373c9..304e8a3  master -> master
+
+b:
+Using the command 'git rev-list --all --count' there appears to be 5 commits. Similarly, when I use the command 'git shortlog' I can also see there are 5 commits.
+
+c:
+Using 'git log .gitignore' command it appears the .gitignore file was last modified Thu Jan 10 16:45:38 2019 -0500.
+
+d:
+Two rewasons why branches are used in Git are to make sure your code changes are verified before delivering them to other developers and to support quality assurance/code quality/integration/testing processes.
+
+e:
+Git log will show you the history of commits in the repo. Git status will tell you the modified files that have not been staged for commit. Git log will tell you the author, date and commit message.
+
+f:
+You can use the command 'git log Weapon.h' to see the commits where that file was committed.
+
+g:
+Using the command 'git log --grep=file' I can see all the commits that contained the word "file."
+
+h:
+Inheritance is the method of basing an object or class from another object or class. It receives or inherits properties and methods from existing classes.
+Polymorphism is the concept of having objects of different types that can be accessed through the same interface. For example, with function overriding, a child class can override a parents function to have it's own implentation.
+Encapsulation is a concept in OOP that describes bundling data and methods to work within a single unit, like a class. In Encapsulation, the data is not access directly but through functions present inside the class. Some of the attributes are kept private and others public. Encapsulation makes the concept of data hiding possible.
+
+i:
+The difference between the "Dictator and Lieutenants" workflow and the "Integration management" workflow is that in the "Dictator and Lieutenants", there is a specific structure changes have to go through before they can be merged with the blessed repo. The director is the only one with privileges to push to the blessed repo and conflicts of resolved by the two Lieutenants. On the other hand, with centralized workflow, the developers solve any conflicts independently and then they push to the central repository.
+
+j:
+The centralized workflow would not be a good option to use for a team of 100 developers. The reason why is because all developers would be contributing directly to the blessed repository, which would cause a lot of headaches and conflicts. If they use a dictator model, everything will be organized better into a hierarchical form and developers can work stress free and not have to worry about conflicts with other developers pushing their work to the repository.
