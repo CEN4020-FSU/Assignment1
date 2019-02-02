@@ -36,3 +36,6 @@ The difference between the "Dictator and Lieutenants" workflow and the "Integrat
 
 j:
 The centralized workflow would not be a good option to use for a team of 100 developers. The reason why is because all developers would be contributing directly to the blessed repository, which would cause a lot of headaches and conflicts. If they use a dictator model, everything will be organized better into a hierarchical form and developers can work stress free and not have to worry about conflicts with other developers pushing their work to the repository.
+
+5:
+The RoleGame prototype is using both polymorphism and encapsulation. It is using polymorphism because the different weapons are inihareated from a abstract weapons class, and some of the functions are overrided to contain their own implementation. This is an example of polymorphism. It is using encapsulation because the data and methods of the different weapons are bundled together into classes. Some of the classes have a rpivat section, and a lot of the data (like the hitpoints), are not accessed directly but rhough functions present inside the class. This is an example of encapsulation.
