@@ -1,3 +1,4 @@
+(a)
 Enumerating objects: 11, done.
 Counting objects: 100% (11/11), done.
 Delta compression using up to 8 threads
@@ -7,4 +8,45 @@ Total 7 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
 To https://github.com/eea17b/Assignment1
    ffaccff..40ae2aa  master -> master
+
+(B) 19 commits
+git rev-list --count HEAD
+
+(c) 
+In this line I just added gitignore
+Git log gitignore
+
+(d)
+-If two user working in different functions
+-if want to test a new feature
+
+(e)get log prints out all the commits one by one with each on't author
+Get status will show the status like how many commits didn't pushed to the repository
+
+(f)
+git log --follow -- Weapon.h
+
+(g)
+git log --all --grep='file'
+
+(h)
+Inheritance:
+Different kinds of objects often have a certain amount in common with each other.
+polymorphism:
+the ability to present the same interface for differing underlying forms (data types).
+encapsulation:
+the process of combining data and functions into a single unit called class
+
+(I)
+Integration management: public developers send to the manager then manager send to blessed repository to developer private
+Dictator and Lieutenants: manager send to blessed repositories then to the public developers while send to lieutenant then the manager
+
+(J)
+Because:
+- Regular developers work on their topic branch and rebase their work on top of master. 
+-Lieutenants merge the developers' topic branches into their master branch.
+-The dictator merges the lieutenants' master branches into the dictator’s master branch.
+the dictator pushes that master branch to the reference repository so the other developers can rebase on it.
+
+
 
