@@ -31,9 +31,13 @@ public:
      * @param name Weapon's name
      * @param hitPoints Weapon's hitpoints
      */
-    Weapon(std::string name, double hitPoints)
-            : name(name),
-              hitPoints(hitPoints) {} //This is equivalent to this.name = name and this.hitpoints = hitpoitns;
+    Weapon(std::string name, double hitPoint)
+            : name(name)
+              {
+                hitPoints = hitPoint;
+                //if ( name == "hammer" && hitPoint < 30 )
+                 //   hitPoints = 0;
+            } 
 
     /**
      * Detructor

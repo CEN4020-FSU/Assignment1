@@ -9,6 +9,8 @@
 #include "WeaponFactory.h"
 #include "CommonSword.h" 
 #include "CommonSpear.h"
+#include "SimpleHammer.h"
+#include "CrazyRandoSword.h"
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
@@ -27,6 +29,14 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     if (name.compare("spear") == 0) {
         return new CommonSpear();
     }
+    if (name.compare("hammer") == 0) {
+        return new SimpleHammer();
+    }
+    if (name.compare("Csword") == 0) {
+        return new CrazyRandoSword();
+    }
+
+    
 
     throw "Invalid weapon";
 }
