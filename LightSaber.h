@@ -19,14 +19,8 @@
 class LightSaber : public Weapon {
 public:
 
-	if(rand()%2==0){
-	    LightSaber() : Weapon("Lightsaber", 1.0) { //Calls Weapon(name, hitpoints) constructor with values lightsaber and randomly either 1 or 100.
-	    }
-	}
-	if(rand()%2==1){
-		LightSaber() : Weapon("Lightsaber", 100.0) { //Calls Weapon(name, hitpoints) constructor with values lightsaber and randomly either 1 or 100.
-	    }
-	}
+	LightSaber() : Weapon("Lightsaber", ((rand()%2)*98)+1) { //Calls Weapon(name, hitpoints) constructor with values lightsaber and randomly either 1 or 100.
+    }
 
     virtual ~LightSaber() {};
 
