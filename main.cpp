@@ -1,8 +1,8 @@
-
 /* 
  * File:   main.cpp
  * Author: Javier <jrescobara@gmail.com> 
- *
+ *          Gregory <gyentz@gmail.com>
+ 
  * Created on September 25, 2017, 3:19 PM
  */
 

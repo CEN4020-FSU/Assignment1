@@ -1,7 +1,7 @@
 /* 
  * File:   Weapon.h
  * Author: Javier <jrescobara@gmail.com>
- *
+ *          Gregory <gyentz@gmail.com>
  * Created on September 25, 2017, 3:21 PM
  */
 

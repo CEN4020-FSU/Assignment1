@@ -1,7 +1,7 @@
 /* 
  * File:   Weapon.cpp
  * Author: Javier <jrescobara@gmail.com>
- *  
+ *  		Gregory <gyentz@gmail.com>
  */ 
 
 #include "Weapon.h"

@@ -1,7 +1,7 @@
 /* 
  * File:   WeaponFactory.cpp
  * Author: Javier <jrescobara@gmail.com>
- *  
+ *          Gregory <gyentz@gmail.com>
  */ 
 
 #include <string>
