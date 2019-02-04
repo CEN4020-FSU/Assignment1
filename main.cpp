@@ -1,8 +1,8 @@
-
 /* 
  * File:   main.cpp
  * Author: Javier <jrescobara@gmail.com> 
- *
+ *          Gregory <gyentz@gmail.com>
+ 
  * Created on September 25, 2017, 3:19 PM
  */
 
@@ -36,6 +36,18 @@ int main(int argc, char** argv) {
     delete(weapon);
 
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("crazysword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("lightsaber");
     simulateWeapon(weapon, armor);
     delete(weapon);
 
