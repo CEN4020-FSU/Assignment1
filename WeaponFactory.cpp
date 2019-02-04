@@ -35,6 +35,17 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     if (name.compare("Csword") == 0) {
         return new CrazyRandoSword();
     }
+    if (name.compare("MyOwn") == 0) {
+        return new CrazyRandoSword();
+    }
+
+    
+    
+    
+    
+    
+    
+
 
     
 
