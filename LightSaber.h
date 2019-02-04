@@ -13,7 +13,7 @@
 #define LIGHTSABER_H
 
 /**
- * Defines the behavior of a light saber (hitpoint = 50, ignores 20% of 
+ * Defines the behavior of a light saber (hitpoint = 100 / 1, ignores 20% of 
  * armor points)
  */
 class LightSaber : public Weapon {
