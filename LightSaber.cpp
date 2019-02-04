@@ -8,7 +8,7 @@
 #include "LightSaber.h"
 
 double LightSaber::hit(double armor) {
-    double damage = hitPoints - (rand() % ((armor/3) - 2) + 2);
+    double damage = hitPoints - ((rand()%2)*50);	//either they know or do not know that ways of the force
     if (damage < 0) {
         return 0;
     }
