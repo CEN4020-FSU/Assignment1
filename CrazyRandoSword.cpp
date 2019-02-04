@@ -10,6 +10,7 @@
 double CrazyRandoSword::hit(double armor){
     double damage;
     if ( armor >=2 && armor < (hitPoints/3))
+        damage = hitPoints;
     else 
         damage = hitPoints - armor;
     if(damage < 0){

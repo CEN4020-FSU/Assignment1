@@ -6,9 +6,12 @@
  */
 
 #include <string>
-
+#include <iostream>
+#include <cstdlib>
+#include <ctime> 
 #ifndef WEAPON_H
 #define WEAPON_H
+
 
 /**
  * Defines the specification of a weapon. A weapon must define its hitpoints
@@ -34,7 +37,14 @@ public:
     Weapon(std::string name, double hitPoint)
             : name(name)
               {
-                hitPoints = hitPoint;
+                srand(time(0));
+                int i = rand() % 94 +7; 
+                double x = i / 1.0;
+                //std :: cout << "\n" << name << "\n";
+                if ( name == "Crazy Random sword" || name == "Csword")
+                    hitPoint = x;
+                else
+                    hitPoints = hitPoint;
                 //if ( name == "hammer" && hitPoint < 30 )
                  //   hitPoints = 0;
             } 
