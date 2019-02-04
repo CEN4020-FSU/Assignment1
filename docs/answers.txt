@@ -1,0 +1,45 @@
+a)
+Enter passphrase for key '/home/yentz/.ssh/id_rsa':
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 956 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To git@github.com:gregoryYentz/Assignment1.git
+   3d373c9..d0cb75a  master -> master
+
+b)
+5 commits, git log
+
+c)
+Thu Jan 10 16:45:38 2019, git log -p .gitignore
+
+d)
+Branches are used for feature development and to ensure that any changes that pushed don't affect the main branch unless allowed by the repo owner.
+
+e)
+git log shows all the commits to a repo and git status shows which files have and have not been added to the index but not yet committed.
+
+f)
+git log Weapon.h
+
+g)
+git log --oneline | grep PATTERN
+	
+h)
+	I)
+		Inheritance is where the properties of the parent is passed down to the child.
+
+	II)
+		Polymorphism is the ability to not specify the datatype used for a function. 
+
+	III)
+		Encapsulation is where certain data is hidden to the programmer but is accessable to the object through functions.
+
+i)
+	Integration manager workflow has the developers push to their own public repositories where the dictator lieutenants workflow has the developers push to the lieutenant repositories that are then checked and merged into the blessed repository
+
+j)
+	With such a large team, it would be very easy for one developer to be working on an older version of the "blessed" repository, the lieutant repositories would make sure nothing is being broken.
+
