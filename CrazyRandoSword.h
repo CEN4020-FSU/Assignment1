@@ -8,20 +8,20 @@
 #include <string>
 #include "Weapon.h"
 
-#ifndef COMMONSWORD_H
-#define COMMONSWORD_H
+#ifndef CRAZYRANDOMSWORD_H
+#define CRAZYRANDOMSWORD_H
+
 
 /**
  * Defines the behavior of a common sword (hitpoint = 50, it does not ignore armor points)
  */
-class CommonSword : public Weapon {
+class CrazyRandoSword : public Weapon {
 public:
-
-    CommonSword() : Weapon("Common sword",50.0) //Calls Weapon(name, hitpoints) constructor with values Common Sword and 50.0
+    CrazyRandoSword() : Weapon("Crazy Random sword",50.0) //Calls Weapon(name, hitpoints) constructor with values Common Sword and 50.0
     {
     }
 
-    virtual ~CommonSword() {};
+    virtual ~CrazyRandoSword() {};
 
     virtual double hit(double armor);
 
